@@ -117,8 +117,8 @@ public int countNeighbors(int row, int col) {
     neighbors = neighbors + 1;
   }
   }
-  if (isValid(row - 1, col - 1)) {
-   if(buttons[row - 1][col - 1].getLife()){
+  if (isValid(row + 1, col + 1)) {
+   if(buttons[row + 1][col + 1].getLife()){
     neighbors = neighbors + 1;
    }
   }
